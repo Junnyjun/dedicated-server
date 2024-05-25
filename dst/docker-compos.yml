@@ -1,6 +1,7 @@
 version: '3.5'
 services:
   dst-server:
+    platform: linux/arm64/v8
     image: jamesits/dst-server:latest
     restart: always
     ports:
